@@ -1,15 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&family=Sacramento&display=swap');
-
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #24252a;
-
 }
-
 li, a, button {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -17,18 +12,15 @@ li, a, button {
     color: #ecf0f1;
     text-decoration: none;
 }
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 }
-
 .logo {
     cursor: pointer;
 }
-
 .nav-links {
     list-style: none;
 }
@@ -51,10 +43,5 @@ button {
     transition: all 0.3s ease 0s;
 }
 button:hover {
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgba(0,136,169,);
 }
-
-
-
-
-
